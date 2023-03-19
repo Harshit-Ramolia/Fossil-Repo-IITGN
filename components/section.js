@@ -8,7 +8,7 @@ export default function Section({ children, title, link }) {
     <Box>
       <Paper
         sx={{
-          backgroundColor: "primary.main",
+          backgroundColor: "primary.dark",
           p: 5,
           pt: 1,
           pb: 1,

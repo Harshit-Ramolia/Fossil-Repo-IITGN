@@ -20,6 +20,7 @@ export default function Wrapper({ children }) {
         <Box sx={{ mt: 2 }}>
           <Container>{children}</Container>
         </Box>
+        <Box p={2} bgcolor="primary.main"/>
       </ThemeProvider>
     </>
   );

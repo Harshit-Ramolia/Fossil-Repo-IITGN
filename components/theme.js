@@ -25,12 +25,16 @@ export const theme = {
   },
   palette: {
     primary: {
-      main: "#24292f",
+      main: "#20262E",
       light: "#fff",
+      dark: "#913175"
     },
     secondary: {
-      main: "#9c27b0",
+      main: "#E9E8E8",
+      dark: "#CD5888",
       light: "#fff",
     },
   },
 };
+
+// https://colorhunt.co/palette/20262e913175cd5888e9e8e8

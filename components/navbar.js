@@ -8,6 +8,7 @@ import {
   useScrollTrigger,
 } from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Logo = () => {
@@ -46,12 +47,19 @@ export default function Navbar() {
       <ElevationScroll>
         <AppBar>
           <Toolbar>
-            <Logo />
-            {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              News
-            </Typography> */}
+            <Link href="/">
+              <Logo />
+            </Link>
             <Box sx={{ flexGrow: 1 }} />
-            <Button color="inherit">Login</Button>
+            <Link href="/">
+              <Button color="inherit">Home</Button>
+            </Link>
+            <Link href="/about">
+              <Button color="inherit">About</Button>
+            </Link>
+            {/* <Link href="/contact">
+              <Button color="inherit">Contact Us</Button>
+            </Link> */}
           </Toolbar>
         </AppBar>
       </ElevationScroll>
