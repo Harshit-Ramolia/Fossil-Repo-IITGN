@@ -5,7 +5,7 @@ import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 export default function Section({ children, title, link }) {
   return (
-    <Box>
+    <Box mt={5}>
       <Paper
         sx={{
           backgroundColor: "primary.dark",
@@ -17,7 +17,7 @@ export default function Section({ children, title, link }) {
         className="roundness"
         elevation={0}
       >
-        <Box display="flex" alignItems="center">
+        <Box display="flex" alignItems="center" >
           <Typography variant="h6" flexGrow={1}>
             {title}
           </Typography>
@@ -43,7 +43,7 @@ export default function Section({ children, title, link }) {
       <Box
         sx={{
           p: 5,
-          pt: 1,
+          pt: 3,
           pb: 1,
         }}
         className="roundness"

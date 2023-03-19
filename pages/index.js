@@ -1,11 +1,17 @@
-import Head from "next/head";
 import Image from "next/image";
-import { Box, Grid, Paper, Typography } from "@mui/material";
-import { useEffect } from "react";
-import axios from "axios";
+import {
+  Box,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Grid,
+  Typography,
+} from "@mui/material";
+import Card from "@mui/material/Card";
 import { promises as fs } from "fs";
 import path from "path";
 import Section from "@/components/section";
+import Link from "next/link";
 
 export const getStaticProps = async () => {
   const jsonDirectory = path.join(process.cwd(), "/public/data/manifest.json");
@@ -21,70 +27,100 @@ export const getStaticProps = async () => {
     const internal = JSON.parse(fileContents);
     final = [
       ...final,
-      { ...manifest[i], "3d": internal["models"].slice(0, 4) },
+      { ...manifest[i], models: internal["models"].slice(0, 4) },
     ];
   }
-  manifest.map(async (model) => {
-    return model;
-    // const jsonDirectory = path.join(
-    //   process.cwd(),
-    //   "/public/data/manifest.json"
-    // );
-    // const fileContents = await fs.readFile(jsonDirectory);
-  });
-  return { props: { models: final } };
+  return { props: { sections: final } };
 };
 
-const ModelSections = ({ model }) => {
-  return <Section title={model["species"]} link="/demo"></Section>;
+const ModelCard = ({ model, key }) => {
+  return (
+    <a href="/" target="_blank">
+      <Card>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            sx={{ width: "100%" }}
+            image="data/model/rhesus/images/Cranial12.jpg"
+            alt="green iguana"
+          />
+          <CardContent>
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              align="center"
+            >
+              {model["name"]}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </a>
+  );
 };
 
-export default function Home({ models }) {
-  console.log(models);
+const ModelSections = ({ models }) => {
+  return (
+    <Section title={models["species"]} link="/demo">
+      <Grid container spacing={2}>
+        {models["models"].map((model, idx) => (
+          <Grid item lg={3} md={6} xs={12}>
+            <ModelCard model={model} key={idx} />
+          </Grid>
+        ))}
+      </Grid>
+    </Section>
+  );
+};
+
+const Heading = () => {
+  return (
+    <Box pt={10} pb={10}>
+      <Grid container>
+        <Grid item md={6} xs={12} margin="auto">
+          <Typography
+            variant="h2"
+            fontFamily="Segoe UI"
+            fontWeight={800}
+            display="inline"
+            opacity={0.8}
+          >
+            Digital Repository of
+          </Typography>
+
+          <Typography
+            variant="h2"
+            fontFamily="Segoe UI"
+            fontWeight={800}
+            display="inline"
+            color="primary.dark"
+          >
+            {" "}
+            Bones and Artifacts
+          </Typography>
+        </Grid>
+        <Grid item md={6} xs={12}>
+          <Box>
+            <Image
+              src="/data/images/homepage.jpg"
+              style={{ height: "100%", width: "100%" }}
+              width={1000}
+              height={1000}
+            />
+          </Box>
+        </Grid>
+      </Grid>
+    </Box>
+  );
+};
+
+export default function Home({ sections }) {
   return (
     <>
-      <Box pt={10} pb={10}>
-        <Grid container>
-          <Grid item md={6} xs={12} margin="auto">
-            <Typography
-              variant="h2"
-              fontFamily="Segoe UI"
-              fontWeight={800}
-              display="inline"
-              opacity={0.8}
-            >
-              Digital Repository of
-            </Typography>
-
-            <Typography
-              variant="h2"
-              fontFamily="Segoe UI"
-              fontWeight={800}
-              display="inline"
-              color="primary.dark"
-            >
-              {" "}
-              Bones and Artifacts
-            </Typography>
-          </Grid>
-          <Grid item md={6} xs={12}>
-            <Box>
-              <Image
-                src="/data/images/homepage.jpg"
-                style={{ height: "100%", width: "100%" }}
-                width={1000}
-                height={1000}
-                // layout="fill"
-                // objectFit="cover"
-                // layout="fill"
-                // objectFit="contain"
-              />
-            </Box>
-          </Grid>
-        </Grid>
-      </Box>
-      {models.map((model) => (
-        <ModelSections model={model} />
+      <Heading />
+      {sections.map((models) => (
+        <ModelSections models={models} />
       ))}
       <model-viewer
         alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
