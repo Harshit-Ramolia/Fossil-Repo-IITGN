@@ -78,6 +78,10 @@ body {
   font-family: Nunito Sans, Roboto;
 }
 
+.roundness {
+  border-radius: 20px;
+}
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
