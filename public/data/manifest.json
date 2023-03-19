@@ -1,18 +1,18 @@
 [
     {
         "species": "Rhesus Macaque",
-        "loc" : "data/model/rhesus/data.json"
+        "loc" : "data/model/Rhesus Macaque.json"
     },
     {
         "species": "Nilgai",
-        "loc" : "data/model/artec/data.json"
+        "loc" : "data/model/artec/Nilgai.json"
     },
     {
-        "species": "Miscelleaneous",
-        "loc" : "data/model/artec/data.json"
+        "species": "Goat",
+        "loc" : "data/model/artec/Goat.json"
     },
     {
-        "species": "Miscelleaneous",
-        "loc" : "data/model/artec/data.json"
+        "species": "Dog",
+        "loc" : "data/model/artec/Dog.json"
     } 
 ]

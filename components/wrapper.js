@@ -4,8 +4,7 @@ import {
   responsiveFontSizes,
   ThemeProvider,
 } from "@mui/material";
-import { orange } from "@mui/material/colors";
-import { Container } from "@mui/system";
+import { Container } from "@mui/material";
 import React from "react";
 import Navbar from "./navbar";
 import { theme } from "./theme";

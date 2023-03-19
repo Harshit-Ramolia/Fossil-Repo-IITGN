@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/system";
+import { createTheme } from "@mui/material";
 import { green, orange } from "@mui/material/colors";
 
 export const theme = {
@@ -21,6 +21,16 @@ export const theme = {
     },
     h6: {
       fontFamily: "Lato, Roboto",
+    },
+  },
+  palette: {
+    primary: {
+      main: "#24292f",
+      light: "#fff",
+    },
+    secondary: {
+      main: "#9c27b0",
+      light: "#fff",
     },
   },
 };

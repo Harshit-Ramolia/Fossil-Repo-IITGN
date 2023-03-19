@@ -13,6 +13,10 @@ export default function App({ Component, pageProps }) {
       <Wrapper>
         <Component {...pageProps} />
       </Wrapper>
+      <script
+        type="module"
+        src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"
+      ></script>
     </>
   );
 }
