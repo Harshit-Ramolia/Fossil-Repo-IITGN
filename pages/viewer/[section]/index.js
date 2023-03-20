@@ -66,9 +66,9 @@ const required_attrs = [
   "REMARKS",
 ];
 
-const ModelCard = ({ model, key }) => {
+const ModelCard = ({ model, specie }) => {
   return (
-    <a href="/" target="_blank">
+    <a href={`/viewer/${specie}/${model["name"]}`} target="_blank">
       <Card>
         <CardActionArea>
           <Grid container spacing={2}>

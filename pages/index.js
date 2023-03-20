@@ -32,47 +32,6 @@ export const getStaticProps = async () => {
   return { props: { sections: final } };
 };
 
-const ModelCard = ({ model, key }) => {
-  return (
-    <a href="/" target="_blank">
-      <Card>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            sx={{ width: "100%" }}
-            image="/data/model/rhesus/images/Cranial12.jpg"
-            alt="green iguana"
-          />
-          <CardContent>
-            <Typography
-              gutterBottom
-              variant="h5"
-              component="div"
-              align="center"
-            >
-              {model["name"]}
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-    </a>
-  );
-};
-
-const ModelSections = ({ models }) => {
-  return (
-    <Section title={models["species"]} link={`/viewer/${models["species"]}`}>
-      <Grid container spacing={2}>
-        {models["models"].map((model, idx) => (
-          <Grid item lg={3} md={6} xs={12}>
-            <ModelCard model={model} key={idx} />
-          </Grid>
-        ))}
-      </Grid>
-    </Section>
-  );
-};
-
 const Heading = () => {
   return (
     <Box pt={10} pb={10}>
@@ -114,6 +73,47 @@ const Heading = () => {
   );
 };
 
+const ModelCard = ({ model, specie }) => {
+  return (
+    <a href={`/viewer/${specie}/${model["name"]}`} target="_blank">
+      <Card>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            sx={{ width: "100%" }}
+            image="/data/model/rhesus/images/Cranial12.jpg"
+            alt="green iguana"
+          />
+          <CardContent>
+            <Typography
+              gutterBottom
+              variant="h5"
+              component="div"
+              align="center"
+            >
+              {model["name"]}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </a>
+  );
+};
+
+const ModelSections = ({ models }) => {
+  return (
+    <Section title={models["species"]} link={`/viewer/${models["species"]}`}>
+      <Grid container spacing={2}>
+        {models["models"].map((model, idx) => (
+          <Grid item lg={3} md={6} xs={12}>
+            <ModelCard model={model} specie={models["species"]} />
+          </Grid>
+        ))}
+      </Grid>
+    </Section>
+  );
+};
+
 export default function Home({ sections }) {
   return (
     <>
@@ -121,16 +121,7 @@ export default function Home({ sections }) {
       {sections.map((models) => (
         <ModelSections models={models} />
       ))}
-      {/* <model-viewer
-        alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-        src="data/model/rhesus/models/_cranium.glb"
-        // environment-image="data/model/rhesus/models/_cranium.glb"
-        poster="data/model/rhesus/images/Cranial.png"
-        shadow-intensity="1"
-        camera-controls
-        touch-action="pan-y"
-        class="model"
-      ></model-viewer> */}
     </>
   );
 }
+s;
