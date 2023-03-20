@@ -123,5 +123,4 @@ export default function Home({ sections }) {
       ))}
     </>
   );
-}
-s;
+};
