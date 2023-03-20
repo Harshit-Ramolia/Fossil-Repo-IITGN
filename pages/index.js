@@ -11,7 +11,6 @@ import Card from "@mui/material/Card";
 import { promises as fs } from "fs";
 import path from "path";
 import Section from "@/components/section";
-import Link from "next/link";
 
 export const getStaticProps = async () => {
   const jsonDirectory = path.join(process.cwd(), "/public/data/manifest.json");
@@ -41,7 +40,7 @@ const ModelCard = ({ model, key }) => {
           <CardMedia
             component="img"
             sx={{ width: "100%" }}
-            image="data/model/rhesus/images/Cranial12.jpg"
+            image="/data/model/rhesus/images/Cranial12.jpg"
             alt="green iguana"
           />
           <CardContent>
@@ -62,7 +61,7 @@ const ModelCard = ({ model, key }) => {
 
 const ModelSections = ({ models }) => {
   return (
-    <Section title={models["species"]} link="/demo">
+    <Section title={models["species"]} link={`/viewer/${models["species"]}`}>
       <Grid container spacing={2}>
         {models["models"].map((model, idx) => (
           <Grid item lg={3} md={6} xs={12}>
@@ -122,7 +121,7 @@ export default function Home({ sections }) {
       {sections.map((models) => (
         <ModelSections models={models} />
       ))}
-      <model-viewer
+      {/* <model-viewer
         alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
         src="data/model/rhesus/models/_cranium.glb"
         // environment-image="data/model/rhesus/models/_cranium.glb"
@@ -131,7 +130,7 @@ export default function Home({ sections }) {
         camera-controls
         touch-action="pan-y"
         class="model"
-      ></model-viewer>
+      ></model-viewer> */}
     </>
   );
 }

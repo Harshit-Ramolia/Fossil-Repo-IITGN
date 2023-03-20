@@ -4,8 +4,8 @@
     {
       "name": "Humerus",
       "url": "data/model/artec/models/SR.76.20.glb",
-      "find": "Sabarmati River",
-      "side": "Left",
+      "Find": "Sabarmati River",
+      "Sind": "Left",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -13,8 +13,8 @@
     {
       "name": "Metatarsus",
       "url": "data/model/artec/models/SR.87.20.glb",
-      "find": "Sabarmati River",
-      "side": "Left",
+      "Find": "Sabarmati River",
+      "Sind": "Left",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -22,8 +22,8 @@
     {
       "name": "Tibia",
       "url": "data/model/artec/models/SR.83.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -31,8 +31,8 @@
     {
       "name": "Metatarsus",
       "url": "data/model/artec/models/SR.86.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -40,8 +40,8 @@
     {
       "name": "Radius-Ulna",
       "url": "data/model/artec/models/SR.79.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Proximal and distal end damaged"
@@ -49,8 +49,8 @@
     {
       "name": "Humerus",
       "url": "data/model/artec/models/SR.75.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Proximal epiphysis damaged"
@@ -58,8 +58,8 @@
     {
       "name": "Humerus",
       "url": "data/model/artec/models/SR.77.20.glb",
-      "find": "Sabarmati River",
-      "side": "Left",
+      "Find": "Sabarmati River",
+      "Sind": "Left",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Proximal epiphysis unfused"
@@ -67,8 +67,8 @@
     {
       "name": "Metacarpus",
       "url": "data/model/artec/models/SR.89.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Distal end unfused"
@@ -76,8 +76,8 @@
     {
       "name": "Metacarpus",
       "url": "data/model/artec/models/SR.85.20.glb",
-      "find": "Sabarmati River",
-      "side": "Left",
+      "Find": "Sabarmati River",
+      "Sind": "Left",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -85,8 +85,8 @@
     {
       "name": "Femur",
       "url": "data/model/artec/models/SR.82.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Proximal epiphysis damaged"
@@ -94,8 +94,8 @@
     {
       "name": "Metacarpus",
       "url": "data/model/artec/models/SR.88.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -103,8 +103,8 @@
     {
       "name": "-",
       "url": "data/model/artec/models/SR.84.20.glb",
-      "find": "Sabarmati River",
-      "side": "Left",
+      "Find": "Sabarmati River",
+      "Sind": "Left",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -112,8 +112,8 @@
     {
       "name": "Cranium",
       "url": "data/model/artec/models/SR.01.20.glb",
-      "find": "Sabarmati river",
-      "side": "-",
+      "Find": "Sabarmati river",
+      "Sind": "-",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Right pre-maxilla missing"
@@ -121,8 +121,8 @@
     {
       "name": "Radius",
       "url": "data/model/artec/models/SR.78.20.glb",
-      "find": "Sabarmati River",
-      "side": "Left",
+      "Find": "Sabarmati River",
+      "Sind": "Left",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Complete",
       "REMARKS": "-"
@@ -130,8 +130,8 @@
     {
       "name": "Femur",
       "url": "data/model/artec/models/SR.81.20.glb",
-      "find": "Sabarmati River",
-      "side": "Right",
+      "Find": "Sabarmati River",
+      "Sind": "Right",
       "OBS SPECIES": "cattle",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Head and condyle damaged"

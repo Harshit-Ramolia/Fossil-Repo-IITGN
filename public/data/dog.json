@@ -4,8 +4,8 @@
     {
       "name": "Cranium",
       "url": "data/model/artec/models/SR.31.20.glb",
-      "find": "Sabarmati river",
-      "side": "-",
+      "Find": "Sabarmati river",
+      "Side": "-",
       "OBS SPECIES": "dog",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "all except central incisors and left canine present."

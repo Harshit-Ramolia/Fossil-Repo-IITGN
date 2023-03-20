@@ -17,7 +17,7 @@ export default function Wrapper({ children }) {
     <>
       <ThemeProvider theme={currentTheme}>
         <Navbar />
-        <Box sx={{ mt: 2 }}>
+        <Box sx={{ mt: 2, minHeight: "88vh" }}>
           <Container>{children}</Container>
         </Box>
         <Box p={2} bgcolor="primary.main"/>

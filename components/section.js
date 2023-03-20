@@ -5,7 +5,7 @@ import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 export default function Section({ children, title, link }) {
   return (
-    <Box mt={5}>
+    <Box mt={5} mb={5}>
       <Paper
         sx={{
           backgroundColor: "primary.dark",

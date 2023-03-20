@@ -4,8 +4,8 @@
     {
       "name": "Cranium",
       "url": "data/model/artec/models/SR.28.20.glb",
-      "find": "Sabarmati river",
-      "side": "-",
+      "Find": "Sabarmati river",
+      "Side": "-",
       "OBS SPECIES": "goat",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Pre-maxilla missing. Dentition - right m2,m3. \nleft broken p3, complete m2,m3 present"
