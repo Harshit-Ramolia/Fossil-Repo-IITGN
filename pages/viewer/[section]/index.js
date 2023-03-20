@@ -140,7 +140,7 @@ export default function Viewer({ models, specie }) {
         <TabPanel value={value} index={0}>
           {models["models"].map((model, idx) => (
             <Box mt={3}>
-              <ModelCard model={model} />
+              <ModelCard model={model} specie={specie} />
             </Box>
           ))}
         </TabPanel>
