@@ -20,7 +20,7 @@ export default function Wrapper({ children }) {
         <Box sx={{ mt: 2, minHeight: "88vh" }}>
           <Container>{children}</Container>
         </Box>
-        <Box p={2} bgcolor="primary.main"/>
+        <Box p={2} bgcolor="secondary.main"/>
       </ThemeProvider>
     </>
   );

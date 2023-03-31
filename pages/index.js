@@ -11,6 +11,7 @@ import Card from "@mui/material/Card";
 import { promises as fs } from "fs";
 import path from "path";
 import Section from "@/components/section";
+import Link from "next/link";
 
 export const getStaticProps = async () => {
   const jsonDirectory = path.join(process.cwd(), "/public/data/manifest.json");
@@ -52,7 +53,7 @@ const Heading = () => {
             fontFamily="Segoe UI"
             fontWeight={800}
             display="inline"
-            color="primary.dark"
+            color="primary.main"
           >
             {" "}
             Bones and Artifacts
@@ -75,7 +76,7 @@ const Heading = () => {
 
 const ModelCard = ({ model, specie }) => {
   return (
-    <a href={`/viewer/${specie}/${model["name"]}`} target="_blank">
+    <Link href={`/viewer/${specie}/${model["name"]}`}>
       <Card>
         <CardActionArea>
           <CardMedia
@@ -96,7 +97,7 @@ const ModelCard = ({ model, specie }) => {
           </CardContent>
         </CardActionArea>
       </Card>
-    </a>
+    </Link>
   );
 };
 
@@ -105,7 +106,7 @@ const ModelSections = ({ models }) => {
     <Section title={models["species"]} link={`/viewer/${models["species"]}`}>
       <Grid container spacing={2}>
         {models["models"].map((model, idx) => (
-          <Grid item lg={3} md={6} xs={12}>
+          <Grid item lg={3} md={6} xs={12} key={idx}>
             <ModelCard model={model} specie={models["species"]} />
           </Grid>
         ))}
@@ -118,8 +119,8 @@ export default function Home({ sections }) {
   return (
     <>
       <Heading />
-      {sections.map((models) => (
-        <ModelSections models={models} />
+      {sections.map((models, idx) => (
+        <ModelSections key={idx} models={models} />
       ))}
     </>
   );

@@ -45,7 +45,7 @@ export default function Navbar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <ElevationScroll>
-        <AppBar>
+        <AppBar color="secondary">
           <Toolbar>
             <Link href="/">
               <Logo />

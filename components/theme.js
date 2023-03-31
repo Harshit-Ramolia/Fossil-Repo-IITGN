@@ -25,14 +25,16 @@ export const theme = {
   },
   palette: {
     primary: {
-      main: "#20262E",
+      main: "#913175",
       light: "#fff",
-      dark: "#913175"
+      dark: "#923276"
+      // dark: "#CD5888"
+      // dark: "#913175"
     },
     secondary: {
-      main: "#E9E8E8",
+      main: "#20262E",
       dark: "#CD5888",
-      light: "#fff",
+      light: "#E9E8E8",
     },
   },
 };

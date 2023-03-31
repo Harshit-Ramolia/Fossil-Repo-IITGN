@@ -13,6 +13,7 @@ import {
   Tabs,
   Typography,
 } from "@mui/material";
+import Link from "next/link";
 
 export const getStaticPaths = async () => {
   const jsonDirectory = path.join(process.cwd(), "/public/data/manifest.json");
@@ -68,7 +69,7 @@ const required_attrs = [
 
 const ModelCard = ({ model, specie }) => {
   return (
-    <a href={`/viewer/${specie}/${model["name"]}`} target="_blank">
+    <Link href={`/viewer/${specie}/${model["name"]}`}>
       <Card>
         <CardActionArea>
           <Grid container spacing={2}>
@@ -117,7 +118,7 @@ const ModelCard = ({ model, specie }) => {
           </Grid>
         </CardActionArea>
       </Card>
-    </a>
+    </Link>
   );
 };
 
@@ -139,14 +140,14 @@ export default function Viewer({ models, specie }) {
         </Box>
         <TabPanel value={value} index={0}>
           {models["models"].map((model, idx) => (
-            <Box mt={3}>
+            <Box mt={3} key={idx}>
               <ModelCard model={model} specie={specie} />
             </Box>
           ))}
         </TabPanel>
         <TabPanel value={value} index={1}>
-          {models["description"].split("\n").map((para) => (
-            <Typography variant="body1" align="justify" mt={2}>
+          {models["description"].split("\n").map((para, idx) => (
+            <Typography variant="body1" align="justify" mt={2} key={idx}>
               {para}
             </Typography>
           ))}
