@@ -4,7 +4,7 @@
   "models": [
     {
       "name": "Ribs 10",
-      "url": "data/model/rhesus/models/10_ribs.glb",
+      "url": "data/model/rhesus/models/10_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Spine 10",
-      "url": "data/model/rhesus/models/10_spine.glb",
+      "url": "data/model/rhesus/models/10_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Ribs 11",
-      "url": "data/model/rhesus/models/11_ribs.glb",
+      "url": "data/model/rhesus/models/11_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Spine 11",
-      "url": "data/model/rhesus/models/11_spine.glb",
+      "url": "data/model/rhesus/models/11_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Ribs 12",
-      "url": "data/model/rhesus/models/12_ribs.glb",
+      "url": "data/model/rhesus/models/12_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Spine 12",
-      "url": "data/model/rhesus/models/12_spine.glb",
+      "url": "data/model/rhesus/models/12_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Ribs 13",
-      "url": "data/model/rhesus/models/13_ribs.glb",
+      "url": "data/model/rhesus/models/13_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -67,7 +67,7 @@
     },
     {
       "name": "Spine 13",
-      "url": "data/model/rhesus/models/13_spine.glb",
+      "url": "data/model/rhesus/models/13_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Ribs 14",
-      "url": "data/model/rhesus/models/14_ribs.glb",
+      "url": "data/model/rhesus/models/14_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -85,7 +85,7 @@
     },
     {
       "name": "Spine 14",
-      "url": "data/model/rhesus/models/14_spine.glb",
+      "url": "data/model/rhesus/models/14_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Ribs 15",
-      "url": "data/model/rhesus/models/15_ribs.glb",
+      "url": "data/model/rhesus/models/15_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -103,7 +103,7 @@
     },
     {
       "name": "Spine 15",
-      "url": "data/model/rhesus/models/15_spine.glb",
+      "url": "data/model/rhesus/models/15_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Ribs 16",
-      "url": "data/model/rhesus/models/16_ribs.glb",
+      "url": "data/model/rhesus/models/16_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Spine 16",
-      "url": "data/model/rhesus/models/16_spine.glb",
+      "url": "data/model/rhesus/models/16_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -130,7 +130,7 @@
     },
     {
       "name": "Ribs 17",
-      "url": "data/model/rhesus/models/17_ribs.glb",
+      "url": "data/model/rhesus/models/17_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -139,7 +139,7 @@
     },
     {
       "name": "Spine 17",
-      "url": "data/model/rhesus/models/17_spine.glb",
+      "url": "data/model/rhesus/models/17_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -148,7 +148,7 @@
     },
     {
       "name": "Ribs 18",
-      "url": "data/model/rhesus/models/18_ribs.glb",
+      "url": "data/model/rhesus/models/18_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -157,7 +157,7 @@
     },
     {
       "name": "Spine 18",
-      "url": "data/model/rhesus/models/18_spine.glb",
+      "url": "data/model/rhesus/models/18_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -166,7 +166,7 @@
     },
     {
       "name": "Ribs 19",
-      "url": "data/model/rhesus/models/19_ribs.glb",
+      "url": "data/model/rhesus/models/19_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -175,7 +175,7 @@
     },
     {
       "name": "Spine 19",
-      "url": "data/model/rhesus/models/19_spine.glb",
+      "url": "data/model/rhesus/models/19_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -184,7 +184,7 @@
     },
     {
       "name": "Clavicle 1",
-      "url": "data/model/rhesus/models/1_clavicle.glb",
+      "url": "data/model/rhesus/models/1_clavicle",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -193,7 +193,7 @@
     },
     {
       "name": "Hip 1",
-      "url": "data/model/rhesus/models/1_hip.glb",
+      "url": "data/model/rhesus/models/1_hip",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -202,7 +202,7 @@
     },
     {
       "name": "Phalanges 1",
-      "url": "data/model/rhesus/models/1_phalanges.glb",
+      "url": "data/model/rhesus/models/1_phalanges",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -211,7 +211,7 @@
     },
     {
       "name": "Radius 1",
-      "url": "data/model/rhesus/models/1_radius.glb",
+      "url": "data/model/rhesus/models/1_radius",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -220,7 +220,7 @@
     },
     {
       "name": "Ribs 1",
-      "url": "data/model/rhesus/models/1_ribs.glb",
+      "url": "data/model/rhesus/models/1_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -229,7 +229,7 @@
     },
     {
       "name": "Spine 1",
-      "url": "data/model/rhesus/models/1_spine.glb",
+      "url": "data/model/rhesus/models/1_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -238,7 +238,7 @@
     },
     {
       "name": "Ribs 20",
-      "url": "data/model/rhesus/models/20_ribs.glb",
+      "url": "data/model/rhesus/models/20_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -247,7 +247,7 @@
     },
     {
       "name": "Spine 20",
-      "url": "data/model/rhesus/models/20_spine.glb",
+      "url": "data/model/rhesus/models/20_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -256,7 +256,7 @@
     },
     {
       "name": "Spine 21",
-      "url": "data/model/rhesus/models/21_spine.glb",
+      "url": "data/model/rhesus/models/21_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -265,7 +265,7 @@
     },
     {
       "name": "Spine 22",
-      "url": "data/model/rhesus/models/22_spine.glb",
+      "url": "data/model/rhesus/models/22_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -274,7 +274,7 @@
     },
     {
       "name": "Spine 23",
-      "url": "data/model/rhesus/models/23_spine.glb",
+      "url": "data/model/rhesus/models/23_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -283,7 +283,7 @@
     },
     {
       "name": "Spine 24",
-      "url": "data/model/rhesus/models/24_spine.glb",
+      "url": "data/model/rhesus/models/24_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -292,7 +292,7 @@
     },
     {
       "name": "Spine 25",
-      "url": "data/model/rhesus/models/25_spine.glb",
+      "url": "data/model/rhesus/models/25_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -301,7 +301,7 @@
     },
     {
       "name": "Spine 26",
-      "url": "data/model/rhesus/models/26_spine.glb",
+      "url": "data/model/rhesus/models/26_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -310,7 +310,7 @@
     },
     {
       "name": "Spine 27",
-      "url": "data/model/rhesus/models/27_spine.glb",
+      "url": "data/model/rhesus/models/27_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -319,7 +319,7 @@
     },
     {
       "name": "Spine 28",
-      "url": "data/model/rhesus/models/28_spine.glb",
+      "url": "data/model/rhesus/models/28_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -328,7 +328,7 @@
     },
     {
       "name": "Ribs 2l",
-      "url": "data/model/rhesus/models/2l_ribs.glb",
+      "url": "data/model/rhesus/models/2l_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -337,7 +337,7 @@
     },
     {
       "name": "Ribs 2r",
-      "url": "data/model/rhesus/models/2r_ribs.glb",
+      "url": "data/model/rhesus/models/2r_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -346,7 +346,7 @@
     },
     {
       "name": "Clavicle 2",
-      "url": "data/model/rhesus/models/2_clavicle.glb",
+      "url": "data/model/rhesus/models/2_clavicle",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -355,7 +355,7 @@
     },
     {
       "name": "Hip 2",
-      "url": "data/model/rhesus/models/2_hip.glb",
+      "url": "data/model/rhesus/models/2_hip",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -364,7 +364,7 @@
     },
     {
       "name": "Phalanges 2",
-      "url": "data/model/rhesus/models/2_phalanges.glb",
+      "url": "data/model/rhesus/models/2_phalanges",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -373,7 +373,7 @@
     },
     {
       "name": "Radius 2",
-      "url": "data/model/rhesus/models/2_radius.glb",
+      "url": "data/model/rhesus/models/2_radius",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -382,7 +382,7 @@
     },
     {
       "name": "Ribs 2",
-      "url": "data/model/rhesus/models/2_ribs.glb",
+      "url": "data/model/rhesus/models/2_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -391,7 +391,7 @@
     },
     {
       "name": "Spine 2",
-      "url": "data/model/rhesus/models/2_spine.glb",
+      "url": "data/model/rhesus/models/2_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -400,7 +400,7 @@
     },
     {
       "name": "Ribs 3l",
-      "url": "data/model/rhesus/models/3l_ribs.glb",
+      "url": "data/model/rhesus/models/3l_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -409,7 +409,7 @@
     },
     {
       "name": "Ribs 3r",
-      "url": "data/model/rhesus/models/3r_ribs.glb",
+      "url": "data/model/rhesus/models/3r_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -418,7 +418,7 @@
     },
     {
       "name": "Hip 3",
-      "url": "data/model/rhesus/models/3_hip.glb",
+      "url": "data/model/rhesus/models/3_hip",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -427,7 +427,7 @@
     },
     {
       "name": "Phalanges 3",
-      "url": "data/model/rhesus/models/3_phalanges.glb",
+      "url": "data/model/rhesus/models/3_phalanges",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -436,7 +436,7 @@
     },
     {
       "name": "Spine 3",
-      "url": "data/model/rhesus/models/3_spine.glb",
+      "url": "data/model/rhesus/models/3_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -445,7 +445,7 @@
     },
     {
       "name": "Ribs 4l",
-      "url": "data/model/rhesus/models/4l_ribs.glb",
+      "url": "data/model/rhesus/models/4l_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -454,7 +454,7 @@
     },
     {
       "name": "Ribs 4r",
-      "url": "data/model/rhesus/models/4r_ribs.glb",
+      "url": "data/model/rhesus/models/4r_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -463,7 +463,7 @@
     },
     {
       "name": "Phalanges 4",
-      "url": "data/model/rhesus/models/4_phalanges.glb",
+      "url": "data/model/rhesus/models/4_phalanges",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -472,7 +472,7 @@
     },
     {
       "name": "Spine 4",
-      "url": "data/model/rhesus/models/4_spine.glb",
+      "url": "data/model/rhesus/models/4_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -481,7 +481,7 @@
     },
     {
       "name": "Ribs 5l",
-      "url": "data/model/rhesus/models/5l_ribs.glb",
+      "url": "data/model/rhesus/models/5l_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -490,7 +490,7 @@
     },
     {
       "name": "Ribs 5r",
-      "url": "data/model/rhesus/models/5r_ribs.glb",
+      "url": "data/model/rhesus/models/5r_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -499,7 +499,7 @@
     },
     {
       "name": "Spine 5",
-      "url": "data/model/rhesus/models/5_spine.glb",
+      "url": "data/model/rhesus/models/5_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -508,7 +508,7 @@
     },
     {
       "name": "Ribs 6r",
-      "url": "data/model/rhesus/models/6r_ribs.glb",
+      "url": "data/model/rhesus/models/6r_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -517,7 +517,7 @@
     },
     {
       "name": "Spine 6",
-      "url": "data/model/rhesus/models/6_spine.glb",
+      "url": "data/model/rhesus/models/6_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -526,7 +526,7 @@
     },
     {
       "name": "Ribs 7r",
-      "url": "data/model/rhesus/models/7r_ribs.glb",
+      "url": "data/model/rhesus/models/7r_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -535,7 +535,7 @@
     },
     {
       "name": "Spine 7",
-      "url": "data/model/rhesus/models/7_spine.glb",
+      "url": "data/model/rhesus/models/7_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -544,7 +544,7 @@
     },
     {
       "name": "Ribs 8l",
-      "url": "data/model/rhesus/models/8l_ribs.glb",
+      "url": "data/model/rhesus/models/8l_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -553,7 +553,7 @@
     },
     {
       "name": "Ribs 8r",
-      "url": "data/model/rhesus/models/8r_ribs.glb",
+      "url": "data/model/rhesus/models/8r_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -562,7 +562,7 @@
     },
     {
       "name": "Spine 8",
-      "url": "data/model/rhesus/models/8_spine.glb",
+      "url": "data/model/rhesus/models/8_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -571,7 +571,7 @@
     },
     {
       "name": "Ribs 9",
-      "url": "data/model/rhesus/models/9_ribs.glb",
+      "url": "data/model/rhesus/models/9_ribs",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -580,7 +580,7 @@
     },
     {
       "name": "Spine 9",
-      "url": "data/model/rhesus/models/9_spine.glb",
+      "url": "data/model/rhesus/models/9_spine",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -589,7 +589,7 @@
     },
     {
       "name": "Femur left",
-      "url": "data/model/rhesus/models/left_femur.glb",
+      "url": "data/model/rhesus/models/left_femur",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -598,7 +598,7 @@
     },
     {
       "name": "Humerus left",
-      "url": "data/model/rhesus/models/left_humerus.glb",
+      "url": "data/model/rhesus/models/left_humerus",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -607,7 +607,7 @@
     },
     {
       "name": "Ulna left",
-      "url": "data/model/rhesus/models/left_ulna.glb",
+      "url": "data/model/rhesus/models/left_ulna",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -616,7 +616,7 @@
     },
     {
       "name": "Femur right",
-      "url": "data/model/rhesus/models/right_femur.glb",
+      "url": "data/model/rhesus/models/right_femur",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -625,7 +625,7 @@
     },
     {
       "name": "Humerus right",
-      "url": "data/model/rhesus/models/right_humerus.glb",
+      "url": "data/model/rhesus/models/right_humerus",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -634,7 +634,7 @@
     },
     {
       "name": "Ulna right",
-      "url": "data/model/rhesus/models/right_ulna.glb",
+      "url": "data/model/rhesus/models/right_ulna",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -643,7 +643,7 @@
     },
     {
       "name": "Cranium",
-      "url": "data/model/rhesus/models/_cranium.glb",
+      "url": "data/model/rhesus/models/_cranium",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",
@@ -652,7 +652,7 @@
     },
     {
       "name": "Mandible",
-      "url": "data/model/rhesus/models/_mandible.glb",
+      "url": "data/model/rhesus/models/_mandible",
       "Find": "NA",
       "Sind": "NA",
       "OBS SPECIES": "NA",

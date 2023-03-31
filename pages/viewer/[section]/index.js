@@ -77,7 +77,7 @@ const ModelCard = ({ model, specie }) => {
               <CardMedia
                 component="img"
                 sx={{ width: "100%" }}
-                image="/data/model/rhesus/images/Cranial12.jpg"
+                image={`/${model["url"]}.png`}
                 alt="green iguana"
               />
             </Grid>

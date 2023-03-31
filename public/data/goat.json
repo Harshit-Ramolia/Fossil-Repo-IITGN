@@ -3,7 +3,7 @@
   "models": [
     {
       "name": "Cranium",
-      "url": "data/model/artec/models/SR.28.20.glb",
+      "url": "data/model/artec/models/SR.28.20",
       "Find": "Sabarmati river",
       "Side": "-",
       "OBS SPECIES": "goat",

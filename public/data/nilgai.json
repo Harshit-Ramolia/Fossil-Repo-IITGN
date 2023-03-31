@@ -3,7 +3,7 @@
   "models": [
     {
       "name": "Humerus",
-      "url": "data/model/artec/models/SR.76.20.glb",
+      "url": "data/model/artec/models/SR.76.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
       "OBS SPECIES": "cattle",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Metatarsus",
-      "url": "data/model/artec/models/SR.87.20.glb",
+      "url": "data/model/artec/models/SR.87.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
       "OBS SPECIES": "cattle",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Tibia",
-      "url": "data/model/artec/models/SR.83.20.glb",
+      "url": "data/model/artec/models/SR.83.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Metatarsus",
-      "url": "data/model/artec/models/SR.86.20.glb",
+      "url": "data/model/artec/models/SR.86.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",
@@ -39,7 +39,7 @@
     },
     {
       "name": "Radius-Ulna",
-      "url": "data/model/artec/models/SR.79.20.glb",
+      "url": "data/model/artec/models/SR.79.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Humerus",
-      "url": "data/model/artec/models/SR.75.20.glb",
+      "url": "data/model/artec/models/SR.75.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Humerus",
-      "url": "data/model/artec/models/SR.77.20.glb",
+      "url": "data/model/artec/models/SR.77.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
       "OBS SPECIES": "cattle",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Metacarpus",
-      "url": "data/model/artec/models/SR.89.20.glb",
+      "url": "data/model/artec/models/SR.89.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Metacarpus",
-      "url": "data/model/artec/models/SR.85.20.glb",
+      "url": "data/model/artec/models/SR.85.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
       "OBS SPECIES": "cattle",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Femur",
-      "url": "data/model/artec/models/SR.82.20.glb",
+      "url": "data/model/artec/models/SR.82.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",
@@ -93,7 +93,7 @@
     },
     {
       "name": "Metacarpus",
-      "url": "data/model/artec/models/SR.88.20.glb",
+      "url": "data/model/artec/models/SR.88.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",
@@ -102,7 +102,7 @@
     },
     {
       "name": "-",
-      "url": "data/model/artec/models/SR.84.20.glb",
+      "url": "data/model/artec/models/SR.84.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
       "OBS SPECIES": "cattle",
@@ -111,7 +111,7 @@
     },
     {
       "name": "Cranium",
-      "url": "data/model/artec/models/SR.01.20.glb",
+      "url": "data/model/artec/models/SR.01.20",
       "Find": "Sabarmati river",
       "Sind": "-",
       "OBS SPECIES": "cattle",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Radius",
-      "url": "data/model/artec/models/SR.78.20.glb",
+      "url": "data/model/artec/models/SR.78.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
       "OBS SPECIES": "cattle",
@@ -129,7 +129,7 @@
     },
     {
       "name": "Femur",
-      "url": "data/model/artec/models/SR.81.20.glb",
+      "url": "data/model/artec/models/SR.81.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
       "OBS SPECIES": "cattle",

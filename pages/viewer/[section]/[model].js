@@ -124,9 +124,9 @@ export default function ModelView({ model, specie, slides }) {
           <Grid item md={9} xs={12}>
             <Paper className="roundness">
               <model-viewer
-                src={`/${model["url"]}`}
-                key={`/${model["url"]}`}
-                poster="Not available"
+                src={`/${model["url"]}.glb`}
+                key={`/${model["url"]}.glb`}
+                poster={`/${model["url"]}.png`}
                 shadow-intensity="1"
                 camera-controls
                 touch-action="pan-y"
