@@ -1,7 +1,7 @@
 import React from "react";
 import { promises as fs } from "fs";
 import path from "path";
-import { Box, Button, Paper } from "@mui/material";
+import { Box, Button, Grid, Paper, Typography } from "@mui/material";
 import Section from "@/components/section";
 import Link from "next/link";
 
@@ -67,8 +67,16 @@ export const getStaticProps = async (context) => {
   }
 };
 
+const required_attrs = [
+  "Find",
+  "Side",
+  "OBS SPECIES",
+  "STATE OF INTEGRITY",
+  "REMARKS",
+];
+
 export default function ModelView({ model, specie, slides }) {
-  console.log(slides)
+  console.log(slides);
   return (
     <Box>
       <Section
@@ -84,22 +92,55 @@ export default function ModelView({ model, specie, slides }) {
           </>
         }
       >
-        <Paper className="roundness">
-          <model-viewer
-            src={`/${model["url"]}`}
-            poster="Not available"
-            shadow-intensity="1"
-            camera-controls
-            touch-action="pan-y"
-            alt="Not available"
-            style={{ width: "100%", height: "500px" }}
-          ></model-viewer>
-        </Paper>
+        <Grid container spacing={2}>
+          <Grid item md={3} xs={12}>
+            <Paper className="roundenss">
+              <Box p={1}>
+              {Object.keys(model).map((attr) => {
+                return (
+                  <Box>
+                    {required_attrs.includes(attr) ? (
+                      <>
+                        <Typography
+                          display="inline"
+                          fontWeight={800}
+                          variant="body1"
+                        >
+                          {attr.toUpperCase()} :{" "}
+                        </Typography>
+                        <Typography display="inline" variant="body1">
+                          {model[attr]}
+                        </Typography>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </Box>
+                );
+              })}
+              </Box>
+            </Paper>
+          </Grid>
+          <Grid item md={9} xs={12}>
+            <Paper className="roundness">
+              <model-viewer
+                src={`/${model["url"]}`}
+                key={`/${model["url"]}`}
+                poster="Not available"
+                shadow-intensity="1"
+                camera-controls
+                touch-action="pan-y"
+                alt="Not available"
+                style={{ width: "100%", height: "500px" }}
+              ></model-viewer>
+            </Paper>
+          </Grid>
+        </Grid>
         <Box pt={2} display="flex">
           <Link href={`/viewer/${specie}/${slides[0]}`}>
             <Button
               variant="contained"
-              sx={{ minWidth: "200px" }}
+              sx={{ minWidth: "100px" }}
               className="roundness"
             >
               Prev
@@ -109,7 +150,7 @@ export default function ModelView({ model, specie, slides }) {
           <Link href={`/viewer/${specie}/${slides[0]}`}>
             <Button
               variant="contained"
-              sx={{ minWidth: "200px" }}
+              sx={{ width: "100px" }}
               className="roundness"
             >
               Next
