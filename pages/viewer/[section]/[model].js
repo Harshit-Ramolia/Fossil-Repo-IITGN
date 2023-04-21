@@ -13,7 +13,7 @@ export const getStaticPaths = async () => {
     {
       params: {
         section: "Rhesus Macaque",
-        model: "Ribs 10",
+        model: "10_ribs",
       },
     },
   ];
@@ -29,7 +29,7 @@ export const getStaticPaths = async () => {
       ...models["models"].map((model) => ({
         params: {
           section: manifest[i]["species"],
-          model: model["name"],
+          model: model["filename"],
         },
       })),
     ];
@@ -51,15 +51,14 @@ export const getStaticProps = async (context) => {
   const n = models["models"].length;
   for (var i = 0; i < n; i++) {
     const obj = models["models"][i];
-    if (obj["name"] == model_para) {
-      console.log(i);
+    if (obj["filename"] == model_para) {
       return {
         props: {
           model: obj,
           specie: section,
           slides: [
-            models["models"][(i - 1 + n) % n]["name"],
-            models["models"][(i + 1) % n]["name"],
+            models["models"][(i - 1 + n) % n]["filename"],
+            models["models"][(i + 1) % n]["filename"],
           ],
         },
       };
@@ -76,7 +75,6 @@ const required_attrs = [
 ];
 
 export default function ModelView({ model, specie, slides }) {
-  console.log(slides);
   return (
     <Box>
       <Section
@@ -147,7 +145,7 @@ export default function ModelView({ model, specie, slides }) {
             </Button>
           </Link>
           <Box flexGrow={1} />
-          <Link href={`/viewer/${specie}/${slides[0]}`}>
+          <Link href={`/viewer/${specie}/${slides[1]}`}>
             <Button
               variant="contained"
               sx={{ width: "100px" }}

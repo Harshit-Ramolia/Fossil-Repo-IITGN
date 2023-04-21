@@ -76,7 +76,7 @@ const Heading = () => {
 
 const ModelCard = ({ model, specie }) => {
   return (
-    <Link href={`/viewer/${specie}/${model["name"]}`}>
+    <Link href={`/viewer/${specie}/${model["filename"]}`}>
       <Card>
         <CardActionArea>
           <CardMedia

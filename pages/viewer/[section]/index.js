@@ -69,7 +69,7 @@ const required_attrs = [
 
 const ModelCard = ({ model, specie }) => {
   return (
-    <Link href={`/viewer/${specie}/${model["name"]}`}>
+    <Link href={`/viewer/${specie}/${model["filename"]}`}>
       <Card>
         <CardActionArea>
           <Grid container spacing={2}>

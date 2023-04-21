@@ -3,6 +3,7 @@
   "models": [
     {
       "name": "Cranium",
+      "filename": "SR.28.20",
       "url": "data/model/artec/models/SR.28.20",
       "Find": "Sabarmati river",
       "Side": "-",

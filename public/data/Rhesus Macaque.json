@@ -4,6 +4,7 @@
   "models": [
     {
       "name": "Ribs 10",
+      "filename": "10_ribs",
       "url": "data/model/rhesus/models/10_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -13,6 +14,7 @@
     },
     {
       "name": "Spine 10",
+      "filename": "10_spine",
       "url": "data/model/rhesus/models/10_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -22,6 +24,7 @@
     },
     {
       "name": "Ribs 11",
+      "filename": "11_ribs",
       "url": "data/model/rhesus/models/11_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -31,6 +34,7 @@
     },
     {
       "name": "Spine 11",
+      "filename": "11_spine",
       "url": "data/model/rhesus/models/11_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -40,6 +44,7 @@
     },
     {
       "name": "Ribs 12",
+      "filename": "12_ribs",
       "url": "data/model/rhesus/models/12_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -49,6 +54,7 @@
     },
     {
       "name": "Spine 12",
+      "filename": "12_spine",
       "url": "data/model/rhesus/models/12_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -58,6 +64,7 @@
     },
     {
       "name": "Ribs 13",
+      "filename": "13_ribs",
       "url": "data/model/rhesus/models/13_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -67,6 +74,7 @@
     },
     {
       "name": "Spine 13",
+      "filename": "13_spine",
       "url": "data/model/rhesus/models/13_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -76,6 +84,7 @@
     },
     {
       "name": "Ribs 14",
+      "filename": "14_ribs",
       "url": "data/model/rhesus/models/14_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -85,6 +94,7 @@
     },
     {
       "name": "Spine 14",
+      "filename": "14_spine",
       "url": "data/model/rhesus/models/14_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -94,6 +104,7 @@
     },
     {
       "name": "Ribs 15",
+      "filename": "15_ribs",
       "url": "data/model/rhesus/models/15_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -103,6 +114,7 @@
     },
     {
       "name": "Spine 15",
+      "filename": "15_spine",
       "url": "data/model/rhesus/models/15_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -112,6 +124,7 @@
     },
     {
       "name": "Ribs 16",
+      "filename": "16_ribs",
       "url": "data/model/rhesus/models/16_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -121,6 +134,7 @@
     },
     {
       "name": "Spine 16",
+      "filename": "16_spine",
       "url": "data/model/rhesus/models/16_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -130,6 +144,7 @@
     },
     {
       "name": "Ribs 17",
+      "filename": "17_ribs",
       "url": "data/model/rhesus/models/17_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -139,6 +154,7 @@
     },
     {
       "name": "Spine 17",
+      "filename": "17_spine",
       "url": "data/model/rhesus/models/17_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -148,6 +164,7 @@
     },
     {
       "name": "Ribs 18",
+      "filename": "18_ribs",
       "url": "data/model/rhesus/models/18_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -157,6 +174,7 @@
     },
     {
       "name": "Spine 18",
+      "filename": "18_spine",
       "url": "data/model/rhesus/models/18_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -166,6 +184,7 @@
     },
     {
       "name": "Ribs 19",
+      "filename": "19_ribs",
       "url": "data/model/rhesus/models/19_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -175,6 +194,7 @@
     },
     {
       "name": "Spine 19",
+      "filename": "19_spine",
       "url": "data/model/rhesus/models/19_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -184,6 +204,7 @@
     },
     {
       "name": "Clavicle 1",
+      "filename": "1_clavicle",
       "url": "data/model/rhesus/models/1_clavicle",
       "Find": "NA",
       "Sind": "NA",
@@ -193,6 +214,7 @@
     },
     {
       "name": "Hip 1",
+      "filename": "1_hip",
       "url": "data/model/rhesus/models/1_hip",
       "Find": "NA",
       "Sind": "NA",
@@ -202,6 +224,7 @@
     },
     {
       "name": "Phalanges 1",
+      "filename": "1_phalanges",
       "url": "data/model/rhesus/models/1_phalanges",
       "Find": "NA",
       "Sind": "NA",
@@ -211,6 +234,7 @@
     },
     {
       "name": "Radius 1",
+      "filename": "1_radius",
       "url": "data/model/rhesus/models/1_radius",
       "Find": "NA",
       "Sind": "NA",
@@ -220,6 +244,7 @@
     },
     {
       "name": "Ribs 1",
+      "filename": "1_ribs",
       "url": "data/model/rhesus/models/1_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -229,6 +254,7 @@
     },
     {
       "name": "Spine 1",
+      "filename": "1_spine",
       "url": "data/model/rhesus/models/1_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -238,6 +264,7 @@
     },
     {
       "name": "Ribs 20",
+      "filename": "20_ribs",
       "url": "data/model/rhesus/models/20_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -247,6 +274,7 @@
     },
     {
       "name": "Spine 20",
+      "filename": "20_spine",
       "url": "data/model/rhesus/models/20_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -256,6 +284,7 @@
     },
     {
       "name": "Spine 21",
+      "filename": "21_spine",
       "url": "data/model/rhesus/models/21_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -265,6 +294,7 @@
     },
     {
       "name": "Spine 22",
+      "filename": "22_spine",
       "url": "data/model/rhesus/models/22_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -274,6 +304,7 @@
     },
     {
       "name": "Spine 23",
+      "filename": "23_spine",
       "url": "data/model/rhesus/models/23_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -283,6 +314,7 @@
     },
     {
       "name": "Spine 24",
+      "filename": "24_spine",
       "url": "data/model/rhesus/models/24_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -292,6 +324,7 @@
     },
     {
       "name": "Spine 25",
+      "filename": "25_spine",
       "url": "data/model/rhesus/models/25_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -301,6 +334,7 @@
     },
     {
       "name": "Spine 26",
+      "filename": "26_spine",
       "url": "data/model/rhesus/models/26_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -310,6 +344,7 @@
     },
     {
       "name": "Spine 27",
+      "filename": "27_spine",
       "url": "data/model/rhesus/models/27_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -319,6 +354,7 @@
     },
     {
       "name": "Spine 28",
+      "filename": "28_spine",
       "url": "data/model/rhesus/models/28_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -328,6 +364,7 @@
     },
     {
       "name": "Ribs 2l",
+      "filename": "2l_ribs",
       "url": "data/model/rhesus/models/2l_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -337,6 +374,7 @@
     },
     {
       "name": "Ribs 2r",
+      "filename": "2r_ribs",
       "url": "data/model/rhesus/models/2r_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -346,6 +384,7 @@
     },
     {
       "name": "Clavicle 2",
+      "filename": "2_clavicle",
       "url": "data/model/rhesus/models/2_clavicle",
       "Find": "NA",
       "Sind": "NA",
@@ -355,6 +394,7 @@
     },
     {
       "name": "Hip 2",
+      "filename": "2_hip",
       "url": "data/model/rhesus/models/2_hip",
       "Find": "NA",
       "Sind": "NA",
@@ -364,6 +404,7 @@
     },
     {
       "name": "Phalanges 2",
+      "filename": "2_phalanges",
       "url": "data/model/rhesus/models/2_phalanges",
       "Find": "NA",
       "Sind": "NA",
@@ -373,6 +414,7 @@
     },
     {
       "name": "Radius 2",
+      "filename": "2_radius",
       "url": "data/model/rhesus/models/2_radius",
       "Find": "NA",
       "Sind": "NA",
@@ -382,6 +424,7 @@
     },
     {
       "name": "Ribs 2",
+      "filename": "2_ribs",
       "url": "data/model/rhesus/models/2_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -391,6 +434,7 @@
     },
     {
       "name": "Spine 2",
+      "filename": "2_spine",
       "url": "data/model/rhesus/models/2_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -400,6 +444,7 @@
     },
     {
       "name": "Ribs 3l",
+      "filename": "3l_ribs",
       "url": "data/model/rhesus/models/3l_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -409,6 +454,7 @@
     },
     {
       "name": "Ribs 3r",
+      "filename": "3r_ribs",
       "url": "data/model/rhesus/models/3r_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -418,6 +464,7 @@
     },
     {
       "name": "Hip 3",
+      "filename": "3_hip",
       "url": "data/model/rhesus/models/3_hip",
       "Find": "NA",
       "Sind": "NA",
@@ -427,6 +474,7 @@
     },
     {
       "name": "Phalanges 3",
+      "filename": "3_phalanges",
       "url": "data/model/rhesus/models/3_phalanges",
       "Find": "NA",
       "Sind": "NA",
@@ -436,6 +484,7 @@
     },
     {
       "name": "Spine 3",
+      "filename": "3_spine",
       "url": "data/model/rhesus/models/3_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -445,6 +494,7 @@
     },
     {
       "name": "Ribs 4l",
+      "filename": "4l_ribs",
       "url": "data/model/rhesus/models/4l_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -454,6 +504,7 @@
     },
     {
       "name": "Ribs 4r",
+      "filename": "4r_ribs",
       "url": "data/model/rhesus/models/4r_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -463,6 +514,7 @@
     },
     {
       "name": "Phalanges 4",
+      "filename": "4_phalanges",
       "url": "data/model/rhesus/models/4_phalanges",
       "Find": "NA",
       "Sind": "NA",
@@ -472,6 +524,7 @@
     },
     {
       "name": "Spine 4",
+      "filename": "4_spine",
       "url": "data/model/rhesus/models/4_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -481,6 +534,7 @@
     },
     {
       "name": "Ribs 5l",
+      "filename": "5l_ribs",
       "url": "data/model/rhesus/models/5l_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -490,6 +544,7 @@
     },
     {
       "name": "Ribs 5r",
+      "filename": "5r_ribs",
       "url": "data/model/rhesus/models/5r_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -499,6 +554,7 @@
     },
     {
       "name": "Spine 5",
+      "filename": "5_spine",
       "url": "data/model/rhesus/models/5_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -508,6 +564,7 @@
     },
     {
       "name": "Ribs 6r",
+      "filename": "6r_ribs",
       "url": "data/model/rhesus/models/6r_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -517,6 +574,7 @@
     },
     {
       "name": "Spine 6",
+      "filename": "6_spine",
       "url": "data/model/rhesus/models/6_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -526,6 +584,7 @@
     },
     {
       "name": "Ribs 7r",
+      "filename": "7r_ribs",
       "url": "data/model/rhesus/models/7r_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -535,6 +594,7 @@
     },
     {
       "name": "Spine 7",
+      "filename": "7_spine",
       "url": "data/model/rhesus/models/7_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -544,6 +604,7 @@
     },
     {
       "name": "Ribs 8l",
+      "filename": "8l_ribs",
       "url": "data/model/rhesus/models/8l_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -553,6 +614,7 @@
     },
     {
       "name": "Ribs 8r",
+      "filename": "8r_ribs",
       "url": "data/model/rhesus/models/8r_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -562,6 +624,7 @@
     },
     {
       "name": "Spine 8",
+      "filename": "8_spine",
       "url": "data/model/rhesus/models/8_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -571,6 +634,7 @@
     },
     {
       "name": "Ribs 9",
+      "filename": "9_ribs",
       "url": "data/model/rhesus/models/9_ribs",
       "Find": "NA",
       "Sind": "NA",
@@ -580,6 +644,7 @@
     },
     {
       "name": "Spine 9",
+      "filename": "9_spine",
       "url": "data/model/rhesus/models/9_spine",
       "Find": "NA",
       "Sind": "NA",
@@ -589,6 +654,7 @@
     },
     {
       "name": "Femur left",
+      "filename": "left_femur",
       "url": "data/model/rhesus/models/left_femur",
       "Find": "NA",
       "Sind": "NA",
@@ -598,6 +664,7 @@
     },
     {
       "name": "Humerus left",
+      "filename": "left_humerus",
       "url": "data/model/rhesus/models/left_humerus",
       "Find": "NA",
       "Sind": "NA",
@@ -607,6 +674,7 @@
     },
     {
       "name": "Ulna left",
+      "filename": "left_ulna",
       "url": "data/model/rhesus/models/left_ulna",
       "Find": "NA",
       "Sind": "NA",
@@ -616,6 +684,7 @@
     },
     {
       "name": "Femur right",
+      "filename": "right_femur",
       "url": "data/model/rhesus/models/right_femur",
       "Find": "NA",
       "Sind": "NA",
@@ -625,6 +694,7 @@
     },
     {
       "name": "Humerus right",
+      "filename": "right_humerus",
       "url": "data/model/rhesus/models/right_humerus",
       "Find": "NA",
       "Sind": "NA",
@@ -634,6 +704,7 @@
     },
     {
       "name": "Ulna right",
+      "filename": "right_ulna",
       "url": "data/model/rhesus/models/right_ulna",
       "Find": "NA",
       "Sind": "NA",
@@ -643,6 +714,7 @@
     },
     {
       "name": "Cranium",
+      "filename": "_cranium",
       "url": "data/model/rhesus/models/_cranium",
       "Find": "NA",
       "Sind": "NA",
@@ -652,6 +724,7 @@
     },
     {
       "name": "Mandible",
+      "filename": "_mandible",
       "url": "data/model/rhesus/models/_mandible",
       "Find": "NA",
       "Sind": "NA",

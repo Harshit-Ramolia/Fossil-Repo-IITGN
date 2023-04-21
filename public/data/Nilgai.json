@@ -3,6 +3,7 @@
   "models": [
     {
       "name": "Humerus",
+      "filename": "SR.76.20",
       "url": "data/model/artec/models/SR.76.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
@@ -12,6 +13,7 @@
     },
     {
       "name": "Metatarsus",
+      "filename": "SR.87.20",
       "url": "data/model/artec/models/SR.87.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
@@ -21,6 +23,7 @@
     },
     {
       "name": "Tibia",
+      "filename": "SR.83.20",
       "url": "data/model/artec/models/SR.83.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
@@ -30,6 +33,7 @@
     },
     {
       "name": "Metatarsus",
+      "filename": "SR.86.20",
       "url": "data/model/artec/models/SR.86.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
@@ -39,6 +43,7 @@
     },
     {
       "name": "Radius-Ulna",
+      "filename": "SR.79.20",
       "url": "data/model/artec/models/SR.79.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
@@ -48,6 +53,7 @@
     },
     {
       "name": "Humerus",
+      "filename": "SR.75.20",
       "url": "data/model/artec/models/SR.75.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
@@ -57,6 +63,7 @@
     },
     {
       "name": "Humerus",
+      "filename": "SR.77.20",
       "url": "data/model/artec/models/SR.77.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
@@ -66,6 +73,7 @@
     },
     {
       "name": "Metacarpus",
+      "filename": "SR.89.20",
       "url": "data/model/artec/models/SR.89.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
@@ -75,6 +83,7 @@
     },
     {
       "name": "Metacarpus",
+      "filename": "SR.85.20",
       "url": "data/model/artec/models/SR.85.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
@@ -84,6 +93,7 @@
     },
     {
       "name": "Femur",
+      "filename": "SR.82.20",
       "url": "data/model/artec/models/SR.82.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
@@ -93,6 +103,7 @@
     },
     {
       "name": "Metacarpus",
+      "filename": "SR.88.20",
       "url": "data/model/artec/models/SR.88.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
@@ -102,6 +113,7 @@
     },
     {
       "name": "-",
+      "filename": "SR.84.20",
       "url": "data/model/artec/models/SR.84.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
@@ -111,6 +123,7 @@
     },
     {
       "name": "Cranium",
+      "filename": "SR.01.20",
       "url": "data/model/artec/models/SR.01.20",
       "Find": "Sabarmati river",
       "Sind": "-",
@@ -120,6 +133,7 @@
     },
     {
       "name": "Radius",
+      "filename": "SR.78.20",
       "url": "data/model/artec/models/SR.78.20",
       "Find": "Sabarmati River",
       "Sind": "Left",
@@ -129,6 +143,7 @@
     },
     {
       "name": "Femur",
+      "filename": "SR.81.20",
       "url": "data/model/artec/models/SR.81.20",
       "Find": "Sabarmati River",
       "Sind": "Right",
