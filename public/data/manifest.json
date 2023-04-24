@@ -1,18 +1,17 @@
 [
   {
     "species": "Nilgai",
+    "name": "Cattle/Nilgai",
     "loc": "data/model/artec/Nilgai.json"
   },
   {
-    "species": "Rhesus Macaque",
-    "loc": "data/model/Rhesus Macaque.json"
-  },
-  {
     "species": "Goat",
+    "name": "Goat/Sheep",
     "loc": "data/model/artec/Goat.json"
   },
   {
     "species": "Dog",
+    "name": "Dog",
     "loc": "data/model/artec/Dog.json"
   }
 ]

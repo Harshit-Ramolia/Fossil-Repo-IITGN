@@ -29,6 +29,15 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const section = context.params.section;
+  const jsonDirectoryS = path.join(process.cwd(), "/public/data/manifest.json");
+  const fileContentsS = await fs.readFile(jsonDirectoryS);
+  let name = "";
+  const names = JSON.parse(fileContentsS);
+  for (let i = 0; i < names.length; i++) {
+    if (names[i]["species"] == section) {
+      name = names[i]["name"];
+    }
+  }
   const jsonDirectory = path.join(
     process.cwd(),
     "/public/data/" + section + ".json"
@@ -39,6 +48,7 @@ export const getStaticProps = async (context) => {
     props: {
       models,
       specie: section,
+      name,
     },
   };
 };
@@ -59,15 +69,10 @@ function TabPanel(props) {
   );
 }
 
-const required_attrs = [
-  "Find",
-  "Side",
-  "OBS SPECIES",
-  "STATE OF INTEGRITY",
-  "REMARKS",
-];
+const required_attrs = ["Find", "Side", "SPECIES", "STATE OF INTEGRITY"];
 
 const ModelCard = ({ model, specie }) => {
+  // console.log(name)
   return (
     <Link href={`/viewer/${specie}/${model["filename"]}`}>
       <Card>
@@ -122,7 +127,7 @@ const ModelCard = ({ model, specie }) => {
   );
 };
 
-export default function Viewer({ models, specie }) {
+export default function Viewer({ models, specie, name }) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -131,7 +136,7 @@ export default function Viewer({ models, specie }) {
 
   return (
     <div>
-      <Section title={specie}>
+      <Section title={name}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs value={value} onChange={handleChange}>
             <Tab label="Models" />
@@ -146,11 +151,19 @@ export default function Viewer({ models, specie }) {
           ))}
         </TabPanel>
         <TabPanel value={value} index={1}>
-          {models["description"].split("\n").map((para, idx) => (
-            <Typography variant="body1" align="justify" mt={2} key={idx}>
-              {para}
-            </Typography>
-          ))}
+          <Typography variant="body1" align="justify" mt={2}>
+            {models["description"].split("\n").map((para, idx) => (
+              <>
+                {idx != 1 ? (
+                  para
+                ) : (
+                  <Box component="span" sx={{ fontStyle: "italic" }}>
+                    {para}
+                  </Box>
+                )}
+              </>
+            ))}
+          </Typography>
         </TabPanel>
       </Section>
     </div>

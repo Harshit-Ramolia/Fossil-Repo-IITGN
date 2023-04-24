@@ -1,5 +1,5 @@
 {
-  "description": "Dogs (Canis familiaris or Canis lupus familiaris) are domesticated mammals and are descendants of gray wolves. There are over 400 distinct breeds of dogs that vary in shape, size, and color. The dog is related to foxes and jackals and is one of the two most ubiquitous domestic animals, along with cats. They were the first species to be domesticated by humans over 15,000 years ago. Due to their long association with humans, they have evolved to thrive on a starch-rich diet that other canids cannot. Dogs have been selectively bred for various behaviors, physical attributes, and sensory capabilities over the course of millennia. Dogs are popular pets and perform many roles for humans such as hunting, herding, protection, assistance to police and military, companionship, and therapy.",
+  "description": "Dogs\n (Canis familiaris or Canis lupus familiaris) \nare domesticated mammals and are descendants of gray wolves. There are over 400 distinct breeds of dogs that vary in shape, size, and color. The dog is related to foxes and jackals and is one of the two most ubiquitous domestic animals, along with cats. They were the first species to be domesticated by humans over 15,000 years ago. Due to their long association with humans, they have evolved to thrive on a starch-rich diet that other canids cannot. Dogs have been selectively bred for various behaviors, physical attributes, and sensory capabilities over the course of millennia. Dogs are popular pets and perform many roles for humans such as hunting, herding, protection, assistance to police and military, companionship, and therapy.",
   "models": [
     {
       "name": "Cranium",
@@ -7,7 +7,7 @@
       "url": "data/model/artec/models/SR.31.20",
       "Find": "Sabarmati river",
       "Side": "-",
-      "OBS SPECIES": "dog",
+      "SPECIES": "dog",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "all except central incisors and left canine present."
     }

@@ -57,9 +57,9 @@ export default function Navbar() {
             <Link href="/about">
               <Button color="inherit">About</Button>
             </Link>
-            {/* <Link href="/contact">
-              <Button color="inherit">Contact Us</Button>
-            </Link> */}
+            <Link href="/contact">
+              <Button color="inherit">Contact</Button>
+            </Link>
           </Toolbar>
         </AppBar>
       </ElevationScroll>

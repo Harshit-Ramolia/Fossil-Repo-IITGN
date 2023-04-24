@@ -1,5 +1,5 @@
 {
-  "description": "The goat (Capra hircus) is a domesticated species of goat-antelope that is kept as livestock for meat, milk, fur, and skins. It belongs to the animal family Bovidae and is closely related to sheep. Domesticated goats are descended from the wild goat of Southwest Asia and Eastern Europe, and there are over 300 distinct breeds of goats. They are smaller and lighter than sheep, have backward-arching horns, and are covered in straight hair. Male goats, called bucks or billys, usually have a beard, while females are called does or nannys, and immature goats are called kids. Goats have been used for human consumption and milk production for thousands of years, and their milk is often used to make goat cheese. They are relatively low-maintenance animals, and one or two goats can provide sufficient milk for a family throughout the year. Goat meat is edible, and some breeds, such as the Angora and Cashmere, are raised for their wool.",
+  "description": "The goat\n (Capra hircus) \nis a domesticated species of goat-antelope that is kept as livestock for meat, milk, fur, and skins. It belongs to the animal family Bovidae and is closely related to sheep. Domesticated goats are descended from the wild goat of Southwest Asia and Eastern Europe, and there are over 300 distinct breeds of goats. They are smaller and lighter than sheep, have backward-arching horns, and are covered in straight hair. Male goats, called bucks or billys, usually have a beard, while females are called does or nannys, and immature goats are called kids. Goats have been used for human consumption and milk production for thousands of years, and their milk is often used to make goat cheese. They are relatively low-maintenance animals, and one or two goats can provide sufficient milk for a family throughout the year. Goat meat is edible, and some breeds, such as the Angora and Cashmere, are raised for their wool.",
   "models": [
     {
       "name": "Cranium",
@@ -7,7 +7,7 @@
       "url": "data/model/artec/models/SR.28.20",
       "Find": "Sabarmati river",
       "Side": "-",
-      "OBS SPECIES": "goat",
+      "SPECIES": "goat",
       "STATE OF INTEGRITY": "Incomplete",
       "REMARKS": "Pre-maxilla missing. Dentition - right m2,m3. \nleft broken p3, complete m2,m3 present"
     }

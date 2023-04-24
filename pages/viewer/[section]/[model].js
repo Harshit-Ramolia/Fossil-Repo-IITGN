@@ -47,6 +47,16 @@ export const getStaticProps = async (context) => {
   const fileContents = await fs.readFile(jsonDirectory);
   const models = JSON.parse(fileContents);
   const model = models["models"].filter((obj) => obj["name"] == model_para)[0];
+  const jsonDirectoryS = path.join(process.cwd(), "/public/data/manifest.json");
+  const fileContentsS = await fs.readFile(jsonDirectoryS);
+  let name = "";
+  const names = JSON.parse(fileContentsS);
+  for (let i = 0; i < names.length; i++) {
+    if (names[i]["species"] == section) {
+      name = names[i]["name"];
+    }
+  }
+
   var modelIndex = 0;
   const n = models["models"].length;
   for (var i = 0; i < n; i++) {
@@ -56,6 +66,7 @@ export const getStaticProps = async (context) => {
         props: {
           model: obj,
           specie: section,
+          name: name,
           slides: [
             models["models"][(i - 1 + n) % n]["filename"],
             models["models"][(i + 1) % n]["filename"],
@@ -69,12 +80,11 @@ export const getStaticProps = async (context) => {
 const required_attrs = [
   "Find",
   "Side",
-  "OBS SPECIES",
+  "SPECIES",
   "STATE OF INTEGRITY",
-  "REMARKS",
 ];
 
-export default function ModelView({ model, specie, slides }) {
+export default function ModelView({ model, specie, slides, name }) {
   return (
     <Box>
       <Section
@@ -84,7 +94,7 @@ export default function ModelView({ model, specie, slides }) {
               href={`/viewer/${specie}`}
               style={{ ":hover": { opacity: "0.8" } }}
             >
-              {specie}
+              {name}
             </Link>{" "}
             {" > " + model["name"]}
           </>

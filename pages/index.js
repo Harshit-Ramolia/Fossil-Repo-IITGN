@@ -103,7 +103,7 @@ const ModelCard = ({ model, specie }) => {
 
 const ModelSections = ({ models }) => {
   return (
-    <Section title={models["species"]} link={`/viewer/${models["species"]}`}>
+    <Section title={models["name"]} link={`/viewer/${models["species"]}`}>
       <Grid container spacing={2}>
         {models["models"].map((model, idx) => (
           <Grid item lg={3} md={6} xs={12} key={idx}>
