@@ -77,12 +77,7 @@ export const getStaticProps = async (context) => {
   }
 };
 
-const required_attrs = [
-  "Find",
-  "Side",
-  "SPECIES",
-  "STATE OF INTEGRITY",
-];
+const required_attrs = ["Find", "Side", "SPECIES", "STATE OF INTEGRITY"];
 
 export default function ModelView({ model, specie, slides, name }) {
   return (
@@ -104,28 +99,35 @@ export default function ModelView({ model, specie, slides, name }) {
           <Grid item md={3} xs={12}>
             <Paper className="roundenss">
               <Box p={1}>
-              {Object.keys(model).map((attr) => {
-                return (
-                  <Box>
-                    {required_attrs.includes(attr) ? (
-                      <>
-                        <Typography
-                          display="inline"
-                          fontWeight={800}
-                          variant="body1"
-                        >
-                          {attr.toUpperCase()} :{" "}
-                        </Typography>
-                        <Typography display="inline" variant="body1">
-                          {model[attr]}
-                        </Typography>
-                      </>
-                    ) : (
-                      <></>
-                    )}
-                  </Box>
-                );
-              })}
+                {Object.keys(model).map((attr) => {
+                  return (
+                    <Box>
+                      {required_attrs.includes(attr) ? (
+                        <>
+                          <Typography
+                            display="inline"
+                            fontWeight={800}
+                            variant="body1"
+                          >
+                            {attr.toUpperCase()} :{" "}
+                          </Typography>
+                          <Typography display="inline" variant="body1">
+                            {model[attr]}
+                          </Typography>
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </Box>
+                  );
+                })}
+                <Box mt={2} mb={2}>
+                  <a target="_blank" href={`/${model["url"]}.glb`}>
+                    <Button fullWidth variant="outlined">
+                      Download Model
+                    </Button>
+                  </a>
+                </Box>
               </Box>
             </Paper>
           </Grid>
